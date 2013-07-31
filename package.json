@@ -1,0 +1,11 @@
+{
+  "name": "automon-sandbox",
+  "version": "0.0.1",
+  "dependencies": {
+    "shelly": "0.0.3",
+    "engine.io": "~0.6.3",
+    "express": "~3.3.4",
+    "io-server": "~0.0.4",
+    "batch": "~0.4.0"
+  }
+}
