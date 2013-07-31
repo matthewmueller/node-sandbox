@@ -50,12 +50,6 @@ app.get('/', function(req, res, next) {
 });
 
 /**
- * Get the code
- */
-
-app.get('/code', require('./lib/fetch'));
-
-/**
  * Listen if we are calling this file directly
  */
 
