@@ -26,8 +26,4 @@ run    cd /src; npm install
 env    SANDBOX /home
 
 # Start webserver
-# cmd ["node", "/src/index.js", "80"]
-
-# TODO: download and initialize mongroup
-# Create pids and logs files (or use the ones on the container /var/run /logs possibly)
-# Make cron.json
+cmd ["node", "/src/index.js", "80"]
