@@ -22,6 +22,9 @@ run    touch /home/index.js
 # Install dependencies
 run    cd /src; npm install
 
+# Export HOME
+env    SANDBOX /home
+
 # Start webserver
 # cmd ["node", "/src/index.js", "80"]
 
